@@ -1,0 +1,272 @@
+/* ########################### NAVBAR ############################### */
+
+:root{
+  --jura: font-family: 'Jura', sans-serif;
+  --roboto: font-family: 'Roboto', sans-serif;
+  --phil: font-family: 'Philosopher', sans-serif;
+  font-family: 'Charmonman', cursive;
+  font-family: 'Xanh Mono', monospace;
+}
+body{
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.1rem;
+}
+p{
+  font-size: 1.3rem;
+}
+header {
+  position: relative;
+  background-color: black; 
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 1;
+}
+.display-1{
+    font-size: 6rem;
+    opacity: .4;
+    font-family: 'Cinzel', serif;
+    margin-top: .2rem;
+}
+.display-4{
+    font-size: 3.2rem;
+    opacity: .4;
+    font-family: 'Cinzel', serif;
+  }
+.logo{
+  margin-top: .7rem;
+  /* margin-left: 5rem; */
+}
+div li a:hover{
+  /* margin-top: 1rem; */
+  scale: 1.1;
+}
+/*  ANIMATION ARROW */
+.scrollArrow{
+  opacity: 1;
+  font-size: 70px;
+  margin-top: 880px; 
+  position: absolute;
+  text-align: center;
+  color: white;
+  /* display: inline-block; */
+  /* position: relative; */
+  -moz-animation: bounce 2s infinite linear;
+  -o-animation: bounce 2s infinite linear;
+  -webkit-animation: bounce 2s infinite linear;
+  animation: bounce 2s infinite linear;
+}
+@-webkit-keyframes bounce {
+  0% { top: 0; }
+  50% { top: -0.2em; }
+  70% { top: -0.3em; }
+  100% { top: 0; }
+}
+@-moz-keyframes bounce {
+  0% { top: 0; }
+  50% { top: -0.2em; }
+  70% { top: -0.3em; }
+  100% { top: 0; }
+}
+@-o-keyframes bounce {
+  0% { top: 0; }
+  50% { top: -0.2em; }
+  70% { top: -0.3em; }
+  100% { top: 0; }
+}
+@-ms-keyframes bounce {
+  0% { top: 0; }
+  50% { top: -0.2em; }
+  70% { top: -0.3em; }
+  100% { top: 0; }
+}
+@keyframes bounce {
+  0% { top: 0; }
+  50% { top: -0.2em; }
+  70% { top: -0.3em; }
+  100% { top: 0; }
+}
+.header{
+    background-color: transparent !important;
+}
+ .navbar .navbar-toggler .navbar-toggler-icon {
+    position: relative;
+    width: 25px;
+    height: 3px;
+    outline: 0;
+    display: block;
+    border-radius: .5px;
+    background-color: white;
+}
+.navbar .navbar-toggler .navbar-toggler-icon + .navbar-toggler-icon {
+    margin-top: 6px;
+}
+.nav-link{
+    color: white !important;
+}
+
+
+.nav-link{
+    font-size: 1.5rem;
+    margin-left: 2.5rem ;
+    font-family: 'Philosopher', sans-serif;
+}
+
+/* ########################### WELCOME PAGE ############################### */
+/* .container-start{
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thisisopus.com%2Fwp-content%2Fuploads%2F2018%2F05%2FTrophyLogo-HeaderNoLogos.png&f=1&nofb=1");
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+} */
+
+/* ########################### ÜBER ############################### */
+.containerHistory{
+  max-width: 1400px;
+}
+/* .backgroundContainer{
+  background: url(../images/background2.jpg);
+  background-size: cover;
+  background-position: center;
+} */
+/* .jumbotron{
+  opacity: .2;
+} */
+.jumbotron{
+  padding: 2rem 2rem !important;
+}
+.preisgelder > ul li {
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+}
+hr{
+  margin-top: 50px;
+  border: 1.7px grey solid;
+}
+.imgBorder{
+  border-radius: 4px;
+}
+/* ########################### CARDS ############################### */
+.container-cards{
+    /* background-color:#F0FFFF; */
+    margin-top: 40px;
+}
+.preisgelderP{
+  margin-left: -20px;
+}
+.überschrift{
+  margin-bottom: 4rem !important;
+}
+/* .row-cards{
+    margin: 0 15rem;
+} */
+.card-img-top{
+   margin-bottom: 20px;
+}
+.btn-cards{
+    background-color:#15317E !important;
+    border: white;
+}
+.btn-cards:hover{
+  background-color: #4F0A3F !important;
+  scale: 1.02;
+}
+.card:hover{
+  scale: 1.05;
+}
+.card{
+  border-radius: 5px;
+}
+/* ########################### Carousel ############################### */
+/* .slide{
+    height: 500px;
+} */
+.carousel-inner img {
+    max-height: 700px;
+  }
+.carousel-inner{
+    border-radius: 5px;
+  }
+
+  /* ########################### TABLE  ############################### */
+  #searchIcon{
+    position: relative;
+    z-index: 1;
+    top: -32px;
+    left: 320px;
+    color: #7B7B7B;
+  }
+table tr td:not(:nth-child(2)){
+  text-align: center !important;
+}
+table tr th:not(:nth-child(2)){
+  text-align: center !important;
+}
+/* table{
+  background-color: purple !important;
+} */
+ a, a:hover{
+  text-decoration: none !important;
+}
+.sieheGesamtliste{
+  color: darkblue;
+  font-size: 1.3rem;
+  margin-top: -5px;
+}
+table{
+  border-radius: 5px !important;
+}
+  /* ########################### SMARTPHONE VIEW  ############################### */
+
+  @media (min-width: 375px) and (max-width: 768px)
+  {  
+   .welcomeTxt {font-size:3rem;} 
+   .card:hover{
+    scale: none;
+  }
+  .table td{
+   padding: 0.05rem !important;
+   line-height: 1.5;
+   font-size: 0.95rem;
+  }
+  }
+    /* ########################### IPAD VIEW  ############################### */
+    @media (min-width: 768px) and (max-width: 1024px)
+    {  
+      .imgBorder{
+        width: 100%;
+      }
+      .table td{
+        padding: 0.5rem !important;
+       }
+    }
